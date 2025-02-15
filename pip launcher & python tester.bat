@@ -11,7 +11,7 @@ if %errorlevel% neq 0 (
 
 echo Installation des dépendances...
 pip install --upgrade pip
-pip install setuptools psutil py-cpuinfo GPUtil numpy
+pip install setuptools psutil py-cpuinfo GPUtil numpy matplotlib
 
 echo Installation terminée !
 pause
